@@ -1,0 +1,5 @@
+appId: ${APP_ID}
+---
+# Minimal /show capture — agent may append tapOn/scroll/inputText before takeScreenshot
+- launchApp
+- takeScreenshot: ${SHOT_NAME}
